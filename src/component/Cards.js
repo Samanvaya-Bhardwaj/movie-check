@@ -76,7 +76,7 @@ const Cards = () => {
 
       <div key={i} className='card p-3 shadow-xl hover:-translate-y-2 cursor-pointer text-lg font-bold mt-6 transition-all duration-300' >
 
-        <img className='h-80 w-60' src={e.img} alt="asur" />
+        <img className='h-80 w-60' src={e.img} alt={e.name} />
 
         <h1> <span className='text-gray-500'>Name:</span>  {e.name} </h1>
 
